@@ -6,6 +6,7 @@ import useAuth from '../context/useAuth';
 
 const Home: NextPage = () => {
   const { user } = useAuth();
+  
   const googleAuthentication = async () => {
     const provider = new GoogleAuthProvider();
 
