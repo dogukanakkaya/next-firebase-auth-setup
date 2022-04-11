@@ -37,7 +37,7 @@ export const AuthProvider = (props: ContextProps) => {
                 if (authUser) {
                     const token = await authUser.getIdToken();
 
-                    const response = await fetch('https://127.0.0.1:5000/auth/login', {
+                    const response = await fetch('https://127.0.0.1:3000/api/auth/login', {
                         method: 'POST',
                         body: JSON.stringify({ token }),
                         headers: {

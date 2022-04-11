@@ -39,3 +39,4 @@ yarn-error.log*
 
 # app
 local_ssl
+serviceAccountKey.json
